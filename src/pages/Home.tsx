@@ -48,7 +48,7 @@ export default function Home() {
                 {!isClosed && <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>}
                 <span className={`relative inline-flex rounded-full h-3 w-3 ${isClosed ? 'bg-red-500' : 'bg-blue-500'}`}></span>
               </span>
-              {isClosed ? `Pendaftaran PPDB ${new Date().getFullYear()} Telah Ditutup` : `Pendaftaran PPDB ${new Date().getFullYear()} Telah Dibuka`}
+              {isClosed ? `Pendaftaran PPDB ${new Date().getFullYear()} Telah Ditutup` : `Pendaftaran SPMB ${new Date().getFullYear()} Telah Dibuka`}
             </motion.div>
             
             <motion.h1
@@ -69,7 +69,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-slate-600 mb-10 leading-relaxed"
             >
-              Bergabunglah bersama {settings?.namaSekolah || 'SDN Harapan Bangsa'}. Kami berkomitmen memberikan pendidikan dasar terbaik dengan fasilitas modern dan tenaga pendidik profesional.
+              Bergabunglah bersama {settings?.namaSekolah || 'SD Negeri Kadu 3'}. Kami berkomitmen memberikan pendidikan dasar terbaik dengan fasilitas modern dan tenaga pendidik profesional.
             </motion.p>
             
             <motion.div
@@ -219,9 +219,9 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Alur Pendaftaran PPDB</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Alur Pendaftaran SPMB</h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-              Ikuti langkah-langkah mudah berikut untuk mendaftarkan putra/putri Anda di SDN Harapan Bangsa.
+              Ikuti langkah-langkah mudah berikut untuk mendaftarkan putra/putri Anda di SDN Kadu 3 Harapan Bangsa.
             </p>
           </div>
 
