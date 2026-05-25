@@ -11,7 +11,7 @@
 const SHEET_NAME = "Data Pendaftar";
 const ADMIN_SHEET_NAME = "Admin";
 const SETTINGS_SHEET_NAME = "Pengaturan";
-const FOLDER_NAME = "PPDB SD";
+const FOLDER_NAME = "SPMB SD";
 
 const DEFAULT_FORM_FIELDS = [
   { id: "Nama Lengkap", label: "Nama Lengkap", type: "text", required: true },
@@ -28,7 +28,7 @@ const DEFAULT_FORM_FIELDS = [
 ];
 
 const DEFAULT_SETTINGS = {
-  namaSekolah: "SDN Harapan Bangsa",
+  namaSekolah: "SD Negeri Kadu 3",
   alamat: "Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345",
   telepon: "(021) 1234-5678",
   email: "info@sdnharapanbangsa.sch.id",
