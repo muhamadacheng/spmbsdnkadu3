@@ -1,5 +1,5 @@
 /**
- * Google Apps Script Backend for PPDB SD
+ * Google Apps Script Backend for SPMB SD
  * Deploy as a Web App:
  * 1. Click "Deploy" -> "New deployment"
  * 2. Select type: "Web app"
@@ -237,7 +237,7 @@ function handleRegistration(data) {
       }
     }
   }
-  const noPendaftaran = `PPDB-${year}-${String(nextId).padStart(3, '0')}`;
+  const noPendaftaran = `SPMB-${year}-${String(nextId).padStart(3, '0')}`;
   
   const folder = getOrCreateFolder(FOLDER_NAME);
   const rowData = new Array(headers.length).fill("");
