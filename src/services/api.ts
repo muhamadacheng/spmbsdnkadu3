@@ -75,7 +75,7 @@ const getInitialMockSettings = (): AppSettings => {
     deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
     statusPendaftaran: "Buka",
     persyaratanDaftarUlang: "1. Membawa Bukti Kelulusan yang dicetak\n2. Membawa Fotokopi Akta Kelahiran (2 lembar)\n3. Membawa Fotokopi Kartu Keluarga (2 lembar)\n4. Membawa Pas Foto 3x4 (4 lembar)\n5. Melakukan pembayaran administrasi awal",
-    tanggalDaftarUlang: "2026-07-15",
+    tanggalDaftarUlang: "2026-10-26",
     tanggalPengumuman: "",
     logoSekolah: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop",
     tahunPendaftaran: new Date().getFullYear().toString(),
@@ -87,16 +87,7 @@ const getInitialMockSettings = (): AppSettings => {
     misiSekolah: "1. Menyelenggarakan pembelajaran yang aktif, inovatif, kreatif, efektif, dan menyenangkan (PAIKEM).\n2. Menanamkan nilai-nilai agama dan budi pekerti luhur dalam kehidupan sehari-hari.\n3. Mengembangkan potensi, bakat, dan minat siswa melalui kegiatan ekstrakurikuler.\n4. Menciptakan lingkungan sekolah yang bersih, sehat, dan asri.",
     formFields: [
       { id: "Nama Lengkap", label: "Nama Lengkap", type: "text", required: true },
-      { id: "NIK", label: "NIK", type: "text", required: true },
-      { id: "Tempat Lahir", label: "Tempat Lahir", type: "text", required: true },
-      { id: "Tanggal Lahir", label: "Tanggal Lahir", type: "date", required: true },
-      { id: "Jenis Kelamin", label: "Jenis Kelamin", type: "select", options: ["Laki-laki", "Perempuan"], required: true },
-      { id: "Alamat", label: "Alamat Lengkap", type: "textarea", required: true },
-      { id: "Nama Orang Tua", label: "Nama Orang Tua/Wali", type: "text", required: true },
-      { id: "No HP", label: "No. WhatsApp Aktif", type: "text", required: true },
-      { id: "Foto Siswa", label: "Pas Foto 3x4", type: "file", required: true },
-      { id: "Kartu Keluarga", label: "Kartu Keluarga", type: "file", required: true },
-      { id: "Akta Kelahiran", label: "Akta Kelahiran", type: "file", required: true }
+      
     ],
     panduanJudul: "Panduan Pendaftaran SPMB",
     panduanDeskripsi: "Persiapkan dokumen berikut sebelum mulai mengisi formulir pendaftaran.",
