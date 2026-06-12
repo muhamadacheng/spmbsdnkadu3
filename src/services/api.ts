@@ -87,6 +87,7 @@ const getInitialMockSettings = (): AppSettings => {
     misiSekolah: "1. Menyelenggarakan pembelajaran yang aktif, inovatif, kreatif, efektif, dan menyenangkan (PAIKEM).\n2. Menanamkan nilai-nilai agama dan budi pekerti luhur dalam kehidupan sehari-hari.\n3. Mengembangkan potensi, bakat, dan minat siswa melalui kegiatan ekstrakurikuler.\n4. Menciptakan lingkungan sekolah yang bersih, sehat, dan asri.",
     formFields: [
       { id: "Nama Lengkap", label: "Nama Lengkap", type: "text", required: true },
+      { id: "NISN", label: "NISN", type: "number", required: true },
       { id: "NIK", label: "NIK", type: "text", required: true },
       { id: "Tempat Lahir", label: "Tempat Lahir", type: "text", required: true },
       { id: "Tanggal Lahir", label: "Tanggal Lahir", type: "date", required: true },
