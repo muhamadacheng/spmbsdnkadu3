@@ -8,7 +8,7 @@ const iconMap = {
   FileBadge: FileBadge,
   FileImage: FileImage,
   FileText: FileText,
-};
+}; 
 
 const colorClasses = {
   blue: 'bg-blue-100 text-blue-600',
